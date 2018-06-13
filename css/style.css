@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400i|PT+Sans");
+body { background-color: #69D2E7; }
+
+main { margin: 0 auto; max-width: 1200px; width: 90%; /* @include flexbox(); @include flex-direction(column); */ }
+
+h1 { font: 36px "PT Sans", sans-serif; font-weight: 800; text-align: center; color: #F38630; border: 2px dashed #F38630; padding: 15px; background-color: #A7DBD8; margin-bottom: 50px; }
+
+.quote, .author, .tweet { font: 28px "Open Sans", sans-serif; color: #E0E4CC; text-align: center; }
+
+.author { text-decoration: underline; }
+
+.trigger { background-color: #A7DBD8; border: 1px solid #E0E4CC; border-radius: 4px; color: #FA6900; padding: 20px; text-align: center; text-decoration: none; display: block; margin: 0 auto; margin-top: 50px; font: 26px "PT Sans", sans-serif; }
+
+.trigger:hover { cursor: pointer; color: #F38630; }
+
+.tweet { display: block; margin: 0 auto; margin-top: 50px; margin-bottom: 50px; }
+
+.tweet:hover { cursor: pointer; color: #F38630; }
