@@ -4,8 +4,11 @@ var quoteUrl = "https://quotesondesign.com/wp-json/posts?filter[orderby]=rand&fi
 
 function getQuote() {
   $.getJSON(prefix + quoteUrl, createTweet);
-  $.ajaxSetup({ cache: false });
 }
+$.ajaxSetup({
+  cache: false
+});
+
 
 function createTweet(input) {
   var data = input[0];
