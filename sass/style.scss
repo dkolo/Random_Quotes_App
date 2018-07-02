@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400i|PT+Sans');
 
-$title-font: 'PT Sans',
-sans-serif;
-$text-font: 'Open Sans',
-sans-serif;
+$title-font: 'PT Sans', sans-serif;
+$text-font: 'Open Sans', sans-serif;
 
 $blue: #69D2E7;
 $turquoise: #A7DBD8;
@@ -50,7 +48,7 @@ h1 {
 }
 
 .trigger {
-	background-color: $blue;
+    background-color: $blue;
     border: 1px solid $sand;
     @include border-radius(4px);
     color: $orange;
